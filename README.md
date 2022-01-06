@@ -9,7 +9,7 @@
 
 ## Author
 
-👤 **Divyansh **
+👤 **Divyansh**
 
 * Website: http://linkfree.eddiehub.org/divyanshraj0408
 * Twitter: [@divyanshraj04](https://twitter.com/divyanshraj04)
