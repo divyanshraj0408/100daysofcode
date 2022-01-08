@@ -4,10 +4,12 @@ let orangeShelf = document.getElementById("orange-shelf")
 
 function sort() {
     for (let i = 0; i < fruit.length; i++) {
-        if (fruit[i] = "🍎") {
-            appleShelf = fruit[i]
+        if (fruit[i] === "🍎") {
+            appleShelf.textContent += "🍎"
         } else {
-            orangeShelf = fruit[i]
+            orangeShelf.textContent += "🍊"
         }
+        continue
     }
 }
+sort()
