@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-el {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-el {
+    background-color: aqua;
+    width: 20vw;
+    height: 5vh;
+    margin: 5px;
+}
+
+p {
+    border: 2px solid black;
+}
