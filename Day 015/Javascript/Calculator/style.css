@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.digits {
+    width: 48%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.container {
+    align-items: center;
+    justify-items: center;
+}
+
+#display {
+    font-size: large;
+    height: 50px;
+    width: 49.3%;
+    display: block;
+    background-color: aqua;
+}
