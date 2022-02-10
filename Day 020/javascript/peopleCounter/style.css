@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#increment_btn {
+    cursor: pointer;
+    width: 126px;
+    height: 48px;
+    background-color: aqua;
+    color: rgb(37, 23, 23);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#decrement_btn {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 126px;
+    height: 48px;
+    background-color: aqua;
+    color: rgb(37, 23, 23);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#save_btn {
+    margin-top: 5px;
+    cursor: pointer;
+    width: 126px;
+    height: 48px;
+    background-color: aqua;
+    color: rgb(37, 23, 23);
+    border: 2px solid black;
+    border-radius: 25px;
+}
