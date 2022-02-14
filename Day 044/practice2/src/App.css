@@ -1,0 +1,15 @@
+body{
+  background-color: #23252C;
+}
+.Image{
+  width: 315px;
+height: 315px;
+border-radius: 10px 10px 0px 0px;
+}
+.MainContent{
+   background: #1A1B21;
+   position: absolute;
+   width: 317px;
+   height: 399px;
+   color: white;
+}
