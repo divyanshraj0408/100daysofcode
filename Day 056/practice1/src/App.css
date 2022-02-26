@@ -1,0 +1,10 @@
+.Header{
+  background-color: brown;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header--image{
+  margin: 10px;
+}
