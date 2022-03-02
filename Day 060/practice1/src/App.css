@@ -1,0 +1,21 @@
+.Header{
+  background-color: #fbd836;
+  border: 2px solid black;
+  border-top:0 ;
+  border-left:0 ;
+  border-right: 0 ;
+  display: flex;
+  align-items: center;
+}
+.Logo-image{
+  /* float: left; */
+  margin-left: -29px;
+  width: 129px;
+  max-height: 100%;
+}
+.Header--title{
+  font-size: 1.75rem;
+  /* font-weight: 500px; */
+  margin-right: auto;
+}
+
