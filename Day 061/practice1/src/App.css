@@ -1,0 +1,46 @@
+body{
+  font-family: "karla",sans-serif;
+}
+.Header{
+  background-color: #fbd836;
+  border: 2px solid black;
+  border-top:0 ;
+  border-left:0 ;
+  border-right: 0 ;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 36px; */
+}
+main{
+  padding: 36px;
+}
+.Logo-image{
+  /* float: left; */
+  margin-left: -29px;
+  width: 129px;
+  max-height: 100%;
+}
+.Header--title{
+  font-size: 1.75rem;
+  /* font-weight: 500px; */
+  margin-right: auto;
+}
+.form{
+  
+  display: grid;
+  grid-template:40px 40px/1fr 1fr ;
+  gap: 17px;
+}
+.form--button{
+  font-family: "karla",sans-serif;
+  grid-column: 1/-1;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #fbd836;
+  cursor: pointer;
+}
+.form--input{
+  border-radius: 5px;
+  border: 2px solid #D5D4D8;
+  text-indent: 5px;
+}
