@@ -16,9 +16,15 @@ export default function App() {
      * using the properties of our state object above
      * (Ignore `isFavorite` for now)
      */
+    let starIcon = contact.isFavorite? logo2:logo1
     
     function toggleFavorite() {
-        console.log("Toggle Favorite")
+        setContact(prevContact => {
+          return{
+            ...prevContact,
+            isFavorite: !prevContact.isFavorite 
+          }
+        })
     }
     
     return (
@@ -27,7 +33,7 @@ export default function App() {
                 <img src={logo3} className="card--image" />
                 <div className="card--info">
                     <img 
-                        src={logo1} 
+                        src={starIcon} 
                         className="card--favorite"
                         onClick={toggleFavorite}
                     />
